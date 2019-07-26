@@ -8,12 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>{% block title%} {% endblock %}</title>
      <style>
+
        {% block css %} {% endblock %}
   </style>
   </head>
-  <body>
+  <body >
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="/shop">Go Rotrico</a>
@@ -40,7 +42,7 @@
 
 
       <li class="nav-item">
-        <a class="nav-link" href="/contact">Contact Us</a>
+        <a class="nav-link" href="/blog/contact">Contact Us</a>
       </li>
 
 
@@ -53,7 +55,21 @@
   </div>
 </nav>
   {% block body %} {% endblock %}
+<footer class="container " >
+  <p>
+    <center>
 
+  <h4><div>Follow us on:</div><br>
+  <div><a href="https://www.facebook.com/naman.yadav.315" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter mx-4"></a>
+    <a href="https://www.instagram.com/namanyadav2104/" class="fa fa-instagram"></a>
+  </div></h4>
+</center>
+  </p>
+</footer>
+    <!--   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"
